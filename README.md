@@ -358,4 +358,4 @@ void winningScreen()
 
 Den restlichen Code befindet sich in der TickTackToe.cpp Datei.
 
-![](https://github.com/FabianSchieder/Arduino_TickTackToe/blob/main/TickTackToe.cpp "TickTackToe.cpp")
+https://github.com/FabianSchieder/Arduino_TickTackToe/blob/main/TickTackToe.cpp
