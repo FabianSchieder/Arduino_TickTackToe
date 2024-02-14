@@ -13,6 +13,7 @@ Stückliste:
 - 9 Wiederstände (hier 330Ohm)
 - verschieden lange Jumper Cables
 - Steckbrett/er
+- Arduino Mega 
 
 
 ![](https://github.com/FabianSchieder/Arduino_TickTackToe/blob/main/Gesamt.jpg "Gesamte Schaltung")
