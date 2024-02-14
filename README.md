@@ -12,4 +12,4 @@ Stückliste:
 - verschieden lange Jumper Cables
 - Steckbrett/er
 
-- 
+![alt text](https://github.com/FabianSchieder/Arduino_TickTackToe/blob/main/20240214_203023.jpg "Logo Title Text 1")
