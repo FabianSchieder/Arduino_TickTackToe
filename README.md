@@ -1,5 +1,7 @@
 # Arduino_TickTackToe
 
+
+
 In diesem Projekt geht es um TickTackToe auf dem Arduino mit einer 3x3 zweifarbigen LED Matrix.
 Wichtig zu beachten ist, dass dieses Projekt einen Arduino Mega benötigt, da der Arduino Uno nicht genug digitale Pins besitzt.
 
@@ -608,6 +610,3 @@ void winningScreen()
 }
 
 ```
-
-
-Fabian Schieder
