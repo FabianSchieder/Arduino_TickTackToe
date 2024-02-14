@@ -140,30 +140,6 @@ void loop()
   verify();
 }
 
-void printPitch()
-{
-  for(int i = 0; i < 3; i++)
-  {
-    for(int j = 0; j < 3; j++)
-    {
-      if(pitchWhite[i][j] == true)
-      {
-        digitalWrite(pitchWhitePins[i][j], HIGH);
-
-        if(currPlayer == 'B')
-        {
-          digitalWrite(playerBlue, HIGH);
-          digitalWrite(playerWhite, LOW);
-        }
-        else if(currPlayer == 'W')
-        {
-          digitalWrite(playerWhite, HIGH);
-          digitalWrite(playerBlue, LOW);
-        }
-      }
-    }
-  }
-
 ```
 
 Die "void printPitch();" Funktion ist dafür da, die richtigen LEDs am Spielfeld anzusteuern.
