@@ -79,7 +79,7 @@ const int reset = 11;                                     // Dieser Pin ist mit 
 ```
 
 
-Als nächstes wird in der "void loop();" Funktion angegeben welche Pins INPUTs und welche OUTPUTs sind
+Als nächstes wird in der "void setup();" Funktion angegeben welche Pins INPUTs und welche OUTPUTs sind
 
 ```c++
 
