@@ -45,27 +45,27 @@ Hier habe ich die Variablen für das Projekt erstellt.
 
 
 ```c++
-const int pitchWhitePins[3][3] = {  {22, 28, 34},                          // Dieses Array ist für die Pins des weißen Teil des Spielfeldes.
+const int pitchWhitePins[3][3] = {  {22, 28, 34},        // Dieses Array ist für die Pins des weißen Teil des Spielfeldes.
                                     {24, 30, 36},
                                     {26, 32, 38}, };                              
 
-const int pitchBluePins[3][3] = {  {23, 29, 35},                           // Dieses für den Blauen Teil.
+const int pitchBluePins[3][3] = {  {23, 29, 35},         // Dieses für den Blauen Teil.
                                    {25, 31, 37},
                                    {27, 33, 39}, }; 
 
-int pitchWhite[3][3] = {  {false, false, false},                            // Das Array ist da, um einstellen zu können welche LEDs leuchten und welche nicht.
-                          {false, false, false},                            // true = LED an  |  false = LED aus
+int pitchWhite[3][3] = {  {false, false, false},         // Das Array ist da, um einstellen zu können welche LEDs leuchten und welche nicht.
+                          {false, false, false},         // true = LED an  |  false = LED aus
                           {false, false, false}, };  
 
 int pitchBlue[3][3] = {  {false, false, false},
                          {false, false, false},
                          {false, false, false}, };                                
 
-const int buttons[3][3] = { {40, 41, 42},                                    // Hier sind alle Pins für die Eingabeknöpfe.
+const int buttons[3][3] = { {40, 41, 42},                 // Hier sind alle Pins für die Eingabeknöpfe.
                             {43, 44, 45},
                             {46, 47, 48}  };                                                              
 
-const int playerWhite = 51;                                                  // Pins für die LEDs für den aktuellen Spieler.
+const int playerWhite = 51;                               // Pins für die LEDs für den aktuellen Spieler.
 const int playerBlue = 50;
 
 int x;
@@ -73,7 +73,7 @@ int y;
 
 char currPlayer = 'B';
 
-const int reset = 11;                                                        // Dieser Pin ist mit dem Reset Pin verbunden.
+const int reset = 11;                                     // Dieser Pin ist mit dem Reset Pin verbunden.
 
 ```
 
